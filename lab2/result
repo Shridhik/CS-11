@@ -1,0 +1,21 @@
+/afs/cats.ucsc.edu/users/t/shjohn/cs11/lab2
+
+Access list for public is
+Normal rights:
+  system:operator rlidwk
+  system:authuser rlid
+  system:anyuser rl
+  shjohn rlidwka
+
+Access list for private is
+Normal rights:
+  shjohn rlidwka
+
+total 7
+-rw-r--r--. 1 shjohn users  426 Apr 17 18:37 HelloWorld.class
+drwxr-xr-x. 2 shjohn users 2048 Apr 15 15:46 private
+-rwx------. 1 shjohn users  194 Apr 17 18:32 prog
+drwxr-xr-x. 2 shjohn users 2048 Apr 15 15:46 public
+-rw-r--r--. 1 shjohn users  232 Apr 17 18:42 result
+
+Hello, lab2!

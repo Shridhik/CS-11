@@ -1,0 +1,13 @@
+#----------------------------------------------------------------------------
+# Lawn.java
+# Shridhik John
+# shjohn@ucsc.edu
+# lab3
+# program that interacts with user to calculate the lawn area and mowing time
+#----------------------------------------------------------------------------
+echo "compiling Lawn.java"
+javac Lawn.java >& Lawn-errs
+echo "running Lawn.class"
+java Lawn <  Lawn-in > Lawn-out
+echo "deleting the file Lawn.class"
+rm Lawn.class
